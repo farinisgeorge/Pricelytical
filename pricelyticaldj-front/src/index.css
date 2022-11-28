@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hjumbotron {
+  background-image: url("/homejumb.jpg")  ;
+  min-height: 500px;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.navbar {
+  min-height: 60px;
+}
+
+.aboutjumbotron {
+  background-image: url("/aboutus.jpg");
+  background-size: cover;
+}
+
+.nav-link {color:#fff; text-decoration: none;}
+
+
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}
